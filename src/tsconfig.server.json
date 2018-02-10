@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "files": [
+    "./server.ts",
+    "./config/**/*.ts",
+    "./controllers/**/*.ts",
+    "./models/**/*.ts"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../dist",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "types": []
+  },
+  "exclude": [
+  ]
+}

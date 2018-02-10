@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: white;
+  font-family: 'Roboto', serif;
+  padding: 30px 20px;
+  line-height: 1.5;
+}
+
+.container * {
+  margin: 10px;
+}
+
+.container img {
+  margin: 0 0;
+  width: 100%;
+}
+
+.container div.img-shower {
+  align-content: center;
+  display: block;
+}
+
+.container div.img-shower div.img-container {
+  width: 47%;
+  display: inline-block;
+}
+
+.hero-shower > * {
+  display: inline-block;
+  width: 40%;
+  margin-top: 0;
+}

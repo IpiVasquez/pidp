@@ -1,0 +1,7 @@
+<div class="main">
+  <form [formGroup]="form">
+    <input type="file" (change)="imgReader($event)" id="img" #imgInput>
+    <img *ngIf="img" src="{{img.src}}" alt="{{img.alt}}">
+    <img *ngIf="processedImg" src="{{processedImg.src}}" alt="{{processedImg.alt}}">
+  </form>
+</div>

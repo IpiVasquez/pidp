@@ -1,0 +1,24 @@
+.main {
+  width: 100%;
+  margin: auto;
+  font-family: 'Roboto', serif;
+  line-height: 1.5;
+}
+
+.main * {
+  width: 100%;
+  margin: 10px;
+}
+
+.main > form {
+  min-height: 500px;
+}
+
+.main form * {
+  margin: 10px;
+  display: inline-block;
+}
+
+.main form img {
+  width: 45%;
+}

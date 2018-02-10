@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "src/server.ts",
+    "src/models",
+    "src/config",
+    "src/controllers"
+  ],
+  "ext": "ts",
+  "exec": "ts-node src/server.ts"
+}
