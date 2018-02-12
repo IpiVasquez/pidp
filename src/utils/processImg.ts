@@ -4,7 +4,6 @@
  */
 
 import * as cv from 'opencv';
-import {training} from './training';
 import * as std from 'std.ts';
 import {mean, stats} from './sci.stats';
 
@@ -66,9 +65,6 @@ export function processImg(img: cv.Matrix) {
   rIdx /= nrd.length * nrdMean;
   // Getting pixel sample
   const section = getInterestArea(segmented, x, y);
-  // Showing which area will be taken
-  segmented.ellipse(section.x, section.y, section.width, section.height, [0, 0, 0], 3);
-  preprocessed.ellipse(section.x, section.y, section.width, section.height, [255, 255, 255], 3);
   // Getting intensity values vector
   const intensities = [];
   const p = [];

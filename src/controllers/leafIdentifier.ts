@@ -89,6 +89,7 @@ function leafCb(req: Request, res: Response): void {
       });
       debug('Deleting tmp files');
       // Deleting created images
+      deleteFile(imgPath);
       deleteFile(preprocessedPath);
       deleteFile(interestPath);
       deleteFile(segmentedPath);
