@@ -5,13 +5,10 @@
   line-height: 1.5;
 }
 
-.main * {
+.main form, .main .description, .main > * {
   width: 100%;
-  margin: 10px;
-}
-
-.main > form {
-  min-height: 500px;
+  max-width: 800px;
+  margin: 10px auto;
 }
 
 .main form * {
@@ -19,6 +16,11 @@
   display: inline-block;
 }
 
-.main form img {
-  width: 45%;
+.main .results div {
+  width: 24%;
+  display: inline-block;
+}
+
+.main .results div img {
+  width: 100%;
 }

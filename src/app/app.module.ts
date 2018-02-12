@@ -1,7 +1,10 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
-
+import {
+  MarkdownToHtmlComponent,
+  MarkdownToHtmlModule
+} from 'ng2-markdown-to-html';
 import {AppComponent} from './app.component';
 import {ApiService} from './api.service';
 import {HttpClientModule} from '@angular/common/http';
@@ -11,12 +14,14 @@ import {LeafIdentifierComponent} from './leaf-identifier/leaf-identifier.compone
 @NgModule({
   declarations: [
     AppComponent,
-    LeafIdentifierComponent
+    LeafIdentifierComponent,
+    // MarkdownToHtmlComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MarkdownToHtmlModule.forRoot()
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]

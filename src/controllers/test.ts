@@ -13,7 +13,7 @@ cv.readImage(process.argv[2] || 'assets/Bugambilia/1.jpg', (err, img) => {
   img.convertGrayscale();
   img.gaussianBlur([3, 3]);
   img.canny(100, 200);
-  //  img.dilate(5);
+  //  phases.dilate(5);
   const contours = img.findContours();
   let largestArea = 0;
   let largestIdx = -1;

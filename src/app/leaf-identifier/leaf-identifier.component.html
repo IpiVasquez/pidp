@@ -1,7 +1,35 @@
 <div class="main">
   <form [formGroup]="form">
     <input type="file" (change)="imgReader($event)" id="img" #imgInput>
-    <img *ngIf="img" src="{{img.src}}" alt="{{img.alt}}">
-    <img *ngIf="processedImg" src="{{processedImg.src}}" alt="{{processedImg.alt}}">
   </form>
+  <div *ngIf="loaded" class="description">
+    <h2>Mejores coincidencias:</h2>
+    <markdown-to-html *ngFor="let d of description"
+                      [src]="d"></markdown-to-html>
+  </div>
+  <div *ngIf="loaded" class="results">
+    <h2>Descripción de resultados</h2>
+    <h3>Fases</h3>
+    <div #original>
+      <img *ngIf="img" src="{{ img.src }}"
+           alt="{{ img.alt }}">
+      <p>{{ img.alt }}</p>
+    </div>
+    <div>
+      <img *ngIf="loaded" src="{{ preprocessed.src }}"
+           alt="{{ preprocessed.alt }}">
+      <img *ngIf="!loaded" src="../../assets/loading.gif">
+      <p *ngIf="loaded">{{ preprocessed.alt }}</p>
+    </div>
+    <div>
+      <img *ngIf="loaded" src="{{ segmented.src }}" alt="{{ segmented.alt }}">
+      <img *ngIf="!loaded" src="../../assets/loading.gif">
+      <p *ngIf="loaded">{{ segmented.alt }}</p>
+    </div>
+    <div>
+      <img *ngIf="loaded" src="{{ interest.src }}" alt="{{ interest.alt }}">
+      <img *ngIf="!loaded" src="../../assets/loading.gif">
+      <p *ngIf="loaded">{{ interest.alt }}</p>
+    </div>
+  </div>
 </div>

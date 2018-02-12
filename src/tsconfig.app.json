@@ -8,6 +8,10 @@
   },
   "exclude": [
     "test.ts",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "server.ts",
+    "utils/*.ts",
+    "controllers/*.ts",
+    "config/*.ts"
   ]
 }

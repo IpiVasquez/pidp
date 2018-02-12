@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
 import {ApiService} from '../api.service';
+import {highlightAllUnder} from 'prismjs';
 
 interface ImgData {
   src: string;
@@ -14,8 +15,15 @@ interface ImgData {
 })
 export class LeafIdentifierComponent {
   form: FormGroup;
+
+  description: string[];
+
   img: ImgData;
-  processedImg: ImgData;
+  preprocessed: ImgData;
+  interest: ImgData;
+  segmented: ImgData;
+
+  loaded = false;
 
   constructor(private fb: FormBuilder,
               private api: ApiService) {
@@ -36,20 +44,39 @@ export class LeafIdentifierComponent {
 
     const reader = new FileReader();
     const file = evt.target.files[0];
+    // Checking some flags
+    this.loaded = false;
+    this.description = undefined;
     // Set procedure for when file is read
     reader.onload = () => {
       this.img = {
         src: reader.result,
-        alt: file.name
+        alt: 'Original'
       };
     };
     // Send image to server t be processed
     this.api.submitLeafImg(file).subscribe(d => {
-      const imgData = arrayBufferToBase64(d.img.data);
-      this.processedImg = {
-        src: `data:${d.type};base64,${imgData}`,
-        alt: 'Processed img'
+      // Getting description
+      this.description = d.description;
+      // Generating src string for images
+      const preprocessedData = arrayBufferToBase64(d.images.preprocessed.data);
+      const interestData = arrayBufferToBase64(d.images.interest.data);
+      const segmentedData = arrayBufferToBase64(d.images.segmented.data);
+      // Adding src strings
+      this.preprocessed = {
+        src: `data:${d.type};base64,${preprocessedData}`,
+        alt: 'Preprocesada'
       };
+      this.segmented = {
+        src: `data:${d.type};base64,${segmentedData}`,
+        alt: 'Segmentada'
+      };
+      this.interest = {
+        src: `data:${d.type};base64,${interestData}`,
+        alt: 'Región de interés'
+      };
+      // Load completed!
+      this.loaded = true;
     });
     // Try to read file
     reader.readAsDataURL(file);
