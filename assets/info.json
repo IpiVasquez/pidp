@@ -1,0 +1,212 @@
+{
+  "Lima": {
+    "images": [
+      "img/0101.jpg",
+      "img/0102.jpg",
+      "img/0103.jpg",
+      "img/0104.jpg",
+      "img/0105.jpg",
+      "img/0106.jpg",
+      "img/0107.jpg",
+      "img/0108.jpg",
+      "img/0109.jpg",
+      "img/0110.jpg",
+      "img/0111.jpg",
+      "img/0112.jpg",
+      "img/0113.jpg",
+      "img/0114.jpg",
+      "img/0115.jpg",
+      "img/0116.jpg"
+    ],
+    "description": "/assets/entries/Lima.md"
+  },
+  "Mandarina": {
+    "images": [
+      "img/0201.jpg",
+      "img/0202.jpg",
+      "img/0203.jpg",
+      "img/0204.jpg",
+      "img/0205.jpg",
+      "img/0206.jpg",
+      "img/0207.jpg",
+      "img/0208.jpg",
+      "img/0209.jpg",
+      "img/0210.jpg",
+      "img/0211.jpg",
+      "img/0212.jpg",
+      "img/0213.jpg",
+      "img/0214.jpg",
+      "img/0215.jpg",
+      "img/0216.jpg"
+    ],
+    "description": "/assets/entries/Mandarina.md"
+  },
+  "Guayabo": {
+    "images": [
+      "img/0301.jpg",
+      "img/0302.jpg",
+      "img/0303.jpg",
+      "img/0304.jpg",
+      "img/0305.jpg",
+      "img/0306.jpg",
+      "img/0307.jpg",
+      "img/0308.jpg",
+      "img/0309.jpg",
+      "img/0310.jpg",
+      "img/0311.jpg",
+      "img/0312.jpg",
+      "img/0313.jpg",
+      "img/0314.jpg",
+      "img/0315.jpg",
+      "img/0316.jpg"
+    ],
+    "description": "/assets/entries/Guayabo.md"
+  },
+  "Geranio": {
+    "images": [
+      "img/0401.jpg",
+      "img/0402.jpg",
+      "img/0403.jpg",
+      "img/0404.jpg",
+      "img/0405.jpg",
+      "img/0406.jpg",
+      "img/0407.jpg",
+      "img/0408.jpg",
+      "img/0409.jpg",
+      "img/0410.jpg",
+      "img/0411.jpg",
+      "img/0412.jpg",
+      "img/0413.jpg",
+      "img/0414.jpg",
+      "img/0415.jpg",
+      "img/0416.jpg"
+    ],
+    "description": "/assets/entries/Geranio.md"
+  },
+  "Eucalipto": {
+    "images": [
+      "img/0501.jpg",
+      "img/0502.jpg",
+      "img/0503.jpg",
+      "img/0504.jpg",
+      "img/0505.jpg",
+      "img/0506.jpg",
+      "img/0507.jpg",
+      "img/0508.jpg",
+      "img/0509.jpg",
+      "img/0510.jpg",
+      "img/0511.jpg",
+      "img/0512.jpg",
+      "img/0513.jpg",
+      "img/0514.jpg",
+      "img/0515.jpg",
+      "img/0516.jpg"
+    ],
+    "description": "/assets/entries/Eucalipto.md"
+  },
+  "Jitomate": {
+    "images": [
+      "img/0601.jpg",
+      "img/0602.jpg",
+      "img/0603.jpg",
+      "img/0604.jpg",
+      "img/0605.jpg",
+      "img/0606.jpg",
+      "img/0607.jpg",
+      "img/0608.jpg",
+      "img/0609.jpg",
+      "img/0610.jpg",
+      "img/0611.jpg",
+      "img/0612.jpg",
+      "img/0613.jpg",
+      "img/0614.jpg",
+      "img/0615.jpg",
+      "img/0616.jpg"
+    ],
+    "description": "/assets/entries/Jitomate.md"
+  },
+  "Laurel": {
+    "images": [
+      "img/0701.jpg",
+      "img/0702.jpg",
+      "img/0703.jpg",
+      "img/0704.jpg",
+      "img/0705.jpg",
+      "img/0706.jpg",
+      "img/0707.jpg",
+      "img/0708.jpg",
+      "img/0709.jpg",
+      "img/0710.jpg",
+      "img/0711.jpg",
+      "img/0712.jpg",
+      "img/0713.jpg",
+      "img/0714.jpg",
+      "img/0715.jpg",
+      "img/0716.jpg"
+    ],
+    "description": "/assets/entries/Laurel.md"
+  },
+  "Bugambilia": {
+    "images": [
+      "img/0801.jpg",
+      "img/0802.jpg",
+      "img/0803.jpg",
+      "img/0804.jpg",
+      "img/0805.jpg",
+      "img/0806.jpg",
+      "img/0807.jpg",
+      "img/0808.jpg",
+      "img/0809.jpg",
+      "img/0810.jpg",
+      "img/0811.jpg",
+      "img/0812.jpg",
+      "img/0813.jpg",
+      "img/0814.jpg",
+      "img/0815.jpg",
+      "img/0816.jpg"
+    ],
+    "description": "/assets/entries/Bugambilia.md"
+  },
+  "Zarzamora": {
+    "images": [
+      "img/0901.jpg",
+      "img/0902.jpg",
+      "img/0903.jpg",
+      "img/0904.jpg",
+      "img/0905.jpg",
+      "img/0906.jpg",
+      "img/0907.jpg",
+      "img/0908.jpg",
+      "img/0909.jpg",
+      "img/0910.jpg",
+      "img/0911.jpg",
+      "img/0912.jpg",
+      "img/0913.jpg",
+      "img/0914.jpg",
+      "img/0915.jpg",
+      "img/0916.jpg"
+    ],
+    "description": "/assets/entries/Zarzamora.md"
+  },
+  "Granada": {
+    "images": [
+      "img/1001.jpg",
+      "img/1002.jpg",
+      "img/1003.jpg",
+      "img/1004.jpg",
+      "img/1005.jpg",
+      "img/1006.jpg",
+      "img/1007.jpg",
+      "img/1008.jpg",
+      "img/1009.jpg",
+      "img/1010.jpg",
+      "img/1011.jpg",
+      "img/1012.jpg",
+      "img/1013.jpg",
+      "img/1014.jpg",
+      "img/1015.jpg",
+      "img/1016.jpg"
+    ],
+    "description": "/assets/entries/Granada.md"
+  }
+}

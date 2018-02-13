@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Lima",
+    "areaIndex": {
+      "mean": 0.08597453096832168,
+      "median": 0.09801113589514726,
+      "standardDeviation": 0.015547953883621542
+    },
+    "asymmetry": {
+      "mean": 201.29292792643145,
+      "median": -1695.3884671288747,
+      "standardDeviation": 1338.1871262438121
+    },
+    "compacity": {
+      "mean": 0.5579557631755541,
+      "median": 0.549143481479297,
+      "standardDeviation": 0.10703020870511441
+    },
+    "entropy": {
+      "mean": 4.233868421366949,
+      "median": 4.186988014052167,
+      "standardDeviation": 1.5240830775824632
+    },
+    "iStandardDeviation": {
+      "mean": 0.7960552530838848,
+      "median": 0.7050680447598734,
+      "standardDeviation": 0.15830296382030673
+    },
+    "roughnessIndex": {
+      "mean": 3.8374852231976067e-7,
+      "median": 5.567539903875647e-7,
+      "standardDeviation": 5.940297700150482e-7
+    },
+    "uniformity": {
+      "mean": 0.09710265369188974,
+      "median": 0.18196571901625352,
+      "standardDeviation": 0.0963327481071237
+    }
+  },
+  {
+    "name": "Mandarina",
+    "areaIndex": {
+      "mean": 0.1215812341620169,
+      "median": 0.12263078490673782,
+      "standardDeviation": 0.006719474045276948
+    },
+    "asymmetry": {
+      "mean": -48.22792371300301,
+      "median": 48.451920069639776,
+      "standardDeviation": 1351.5961207520697
+    },
+    "compacity": {
+      "mean": 0.4528587951876772,
+      "median": 0.49037970531290986,
+      "standardDeviation": 0.081285678424078
+    },
+    "entropy": {
+      "mean": 4.530013205645941,
+      "median": 4.054926322931005,
+      "standardDeviation": 1.1773533403414338
+    },
+    "iStandardDeviation": {
+      "mean": 0.8393774682183059,
+      "median": 0.8150281043132659,
+      "standardDeviation": 0.11432942567437145
+    },
+    "roughnessIndex": {
+      "mean": 1.9109143094989235e-8,
+      "median": 1.5555380453749414e-8,
+      "standardDeviation": 3.915662701420136e-7
+    },
+    "uniformity": {
+      "mean": 0.07037024465285198,
+      "median": 0.06850572806598074,
+      "standardDeviation": 0.06525740013694019
+    }
+  },
+  {
+    "name": "Guayabo",
+    "areaIndex": {
+      "mean": 0.10484927743095446,
+      "median": 0.0964719148616029,
+      "standardDeviation": 0.03994575522018999
+    },
+    "asymmetry": {
+      "mean": 239.69300140008815,
+      "median": 56.11395166291147,
+      "standardDeviation": 775.5239603556231
+    },
+    "compacity": {
+      "mean": 0.2773030192710098,
+      "median": 0.5083375738472394,
+      "standardDeviation": 0.15616143766431362
+    },
+    "entropy": {
+      "mean": 3.1731572309185423,
+      "median": 2.6578979697059437,
+      "standardDeviation": 1.6108497242593032
+    },
+    "iStandardDeviation": {
+      "mean": 0.6608490029914388,
+      "median": 0.586351735255884,
+      "standardDeviation": 0.2637384591592417
+    },
+    "roughnessIndex": {
+      "mean": 5.769675591991895e-7,
+      "median": 0.0000010416792087066017,
+      "standardDeviation": 6.355618392036643e-7
+    },
+    "uniformity": {
+      "mean": 0.21847514939696416,
+      "median": 0.3202382237853569,
+      "standardDeviation": 0.2641612270494661
+    }
+  },
+  {
+    "name": "Geranio",
+    "areaIndex": {
+      "mean": 0.037043046080359895,
+      "median": 0.028307889282813158,
+      "standardDeviation": 0.010008148383314186
+    },
+    "asymmetry": {
+      "mean": -101.46854272994429,
+      "median": -43.92793989132356,
+      "standardDeviation": 421.2346722848472
+    },
+    "compacity": {
+      "mean": 0.6344132523362437,
+      "median": 0.745498924232824,
+      "standardDeviation": 0.11497427817554481
+    },
+    "entropy": {
+      "mean": 3.912981017560017,
+      "median": 2.966506824281421,
+      "standardDeviation": 1.3728484011138893
+    },
+    "iStandardDeviation": {
+      "mean": 0.7724952808104657,
+      "median": 0.6675695895154847,
+      "standardDeviation": 0.14612977467118826
+    },
+    "roughnessIndex": {
+      "mean": -2.2992010702829548e-7,
+      "median": 3.817387251588796e-7,
+      "standardDeviation": 0.0000012006835913822053
+    },
+    "uniformity": {
+      "mean": 0.11179413719657064,
+      "median": 0.19781559638216586,
+      "standardDeviation": 0.0907059407883084
+    }
+  },
+  {
+    "name": "Eucalipto",
+    "areaIndex": {
+      "mean": 0.19794442513151655,
+      "median": 0.1994840472199194,
+      "standardDeviation": 0.02966651471186412
+    },
+    "asymmetry": {
+      "mean": -28835.621075749976,
+      "median": 49.94953331390418,
+      "standardDeviation": 140316.31742414852
+    },
+    "compacity": {
+      "mean": 0.1959706425008844,
+      "median": 0.1109180349549217,
+      "standardDeviation": 0.10913987089645623
+    },
+    "entropy": {
+      "mean": 3.928454761088602,
+      "median": 4.367601388155748,
+      "standardDeviation": 0.9490843345205896
+    },
+    "iStandardDeviation": {
+      "mean": 0.8289296738712009,
+      "median": 0.852771241667077,
+      "standardDeviation": 0.10270905120284118
+    },
+    "roughnessIndex": {
+      "mean": -4.406698617808005e-7,
+      "median": 4.5417635583942856e-8,
+      "standardDeviation": 0.000002418125931271851
+    },
+    "uniformity": {
+      "mean": 0.10121188734375083,
+      "median": 0.05488164653616548,
+      "standardDeviation": 0.09995165036333821
+    }
+  },
+  {
+    "name": "Jitomate",
+    "areaIndex": {
+      "mean": 0.17215333002571095,
+      "median": 0.2148790941672948,
+      "standardDeviation": 0.028591618072986404
+    },
+    "asymmetry": {
+      "mean": -36.039558297779244,
+      "median": -63.75350442280025,
+      "standardDeviation": 183.93287278276424
+    },
+    "compacity": {
+      "mean": 0.2996732027962944,
+      "median": 0.18949681503238774,
+      "standardDeviation": 0.11529865667379272
+    },
+    "entropy": {
+      "mean": 4.25811927809705,
+      "median": 4.264067223387437,
+      "standardDeviation": 0.6957702687370828
+    },
+    "iStandardDeviation": {
+      "mean": 0.8379570616716612,
+      "median": 0.8355801466917079,
+      "standardDeviation": 0.06870506573847518
+    },
+    "roughnessIndex": {
+      "mean": -3.865094033177503e-7,
+      "median": -0.000005864721678640308,
+      "standardDeviation": 0.00000417547359241656
+    },
+    "uniformity": {
+      "mean": 0.06737145916567686,
+      "median": 0.06229946627176947,
+      "standardDeviation": 0.031405372129378814
+    }
+  },
+  {
+    "name": "Laurel",
+    "areaIndex": {
+      "mean": 0.07797543707719849,
+      "median": 0.07288746242824584,
+      "standardDeviation": 0.013571988828781795
+    },
+    "asymmetry": {
+      "mean": 20.930480770325676,
+      "median": 26.025317701095457,
+      "standardDeviation": 45.69067696316785
+    },
+    "compacity": {
+      "mean": 0.660664826763504,
+      "median": 0.7381964909817629,
+      "standardDeviation": 0.08551309456520842
+    },
+    "entropy": {
+      "mean": 3.6449354072825875,
+      "median": 3.5962772926405124,
+      "standardDeviation": 0.637408936317934
+    },
+    "iStandardDeviation": {
+      "mean": 0.7767490216255528,
+      "median": 0.7689472886110009,
+      "standardDeviation": 0.07323348042155166
+    },
+    "roughnessIndex": {
+      "mean": 4.6790458651349103e-7,
+      "median": 5.828272916397641e-7,
+      "standardDeviation": 0.0000010204249231112308
+    },
+    "uniformity": {
+      "mean": 0.10493947673551657,
+      "median": 0.10956854397087634,
+      "standardDeviation": 0.05338867436872098
+    }
+  },
+  {
+    "name": "Bugambilia",
+    "areaIndex": {
+      "mean": 0.03799923361019828,
+      "median": 0.03360160841914506,
+      "standardDeviation": 0.015800029711165346
+    },
+    "asymmetry": {
+      "mean": -103.2425038875745,
+      "median": -120.98220589776969,
+      "standardDeviation": 695.3048429827501
+    },
+    "compacity": {
+      "mean": 0.716369459089207,
+      "median": 0.7941694903594588,
+      "standardDeviation": 0.14908543628909557
+    },
+    "entropy": {
+      "mean": 3.6649857396654926,
+      "median": 2.7142577174854097,
+      "standardDeviation": 1.588040804684255
+    },
+    "iStandardDeviation": {
+      "mean": 0.7177602239083758,
+      "median": 0.46184437276532037,
+      "standardDeviation": 0.24085646609628045
+    },
+    "roughnessIndex": {
+      "mean": -5.948048440352175e-7,
+      "median": -6.682602732119738e-7,
+      "standardDeviation": 0.000001785649561900436
+    },
+    "uniformity": {
+      "mean": 0.16097831618680616,
+      "median": 0.5120304168530602,
+      "standardDeviation": 0.23906203973099213
+    }
+  },
+  {
+    "name": "Zarzamora",
+    "areaIndex": {
+      "mean": 0.06312801165913766,
+      "median": 0.0652781442103755,
+      "standardDeviation": 0.015975308325859878
+    },
+    "asymmetry": {
+      "mean": 174.9087034968331,
+      "median": -25.66282365445931,
+      "standardDeviation": 650.0249323730587
+    },
+    "compacity": {
+      "mean": 0.6480437845265506,
+      "median": 0.620920154311601,
+      "standardDeviation": 0.11522190311803814
+    },
+    "entropy": {
+      "mean": 4.151737172328723,
+      "median": 3.3943582524556497,
+      "standardDeviation": 0.7349270296594559
+    },
+    "iStandardDeviation": {
+      "mean": 0.8217215700259485,
+      "median": 0.7192360752264761,
+      "standardDeviation": 0.09011806914284275
+    },
+    "roughnessIndex": {
+      "mean": -1.540149859233665e-7,
+      "median": -2.0209681959713413e-7,
+      "standardDeviation": 0.0000011441819549940533
+    },
+    "uniformity": {
+      "mean": 0.07277273390459738,
+      "median": 0.12598692160159605,
+      "standardDeviation": 0.04202380741136054
+    }
+  },
+  {
+    "name": "Granada",
+    "areaIndex": {
+      "mean": 0.16157981213630712,
+      "median": 0.15549914481884114,
+      "standardDeviation": 0.0627413894971353
+    },
+    "asymmetry": {
+      "mean": 63.02032839487041,
+      "median": 36.295290691071656,
+      "standardDeviation": 232.9341939278175
+    },
+    "compacity": {
+      "mean": 0.39856105128875796,
+      "median": 0.4115342567884314,
+      "standardDeviation": 0.23791876810478868
+    },
+    "entropy": {
+      "mean": 4.061858783132248,
+      "median": 3.8338125828612206,
+      "standardDeviation": 0.6693710947406463
+    },
+    "iStandardDeviation": {
+      "mean": 0.816062596363205,
+      "median": 0.7949640049878282,
+      "standardDeviation": 0.07242832602048323
+    },
+    "roughnessIndex": {
+      "mean": 6.14902535535051e-7,
+      "median": -0.000006317473085221364,
+      "standardDeviation": 0.000004869327929893798
+    },
+    "uniformity": {
+      "mean": 0.07808559223008932,
+      "median": 0.0819443801708136,
+      "standardDeviation": 0.04104514294763793
+    }
+  }
+]

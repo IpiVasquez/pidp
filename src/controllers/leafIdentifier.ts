@@ -63,36 +63,21 @@ function leafCb(req: Request, res: Response): void {
       debug('Processing image');
       const imgInfo = processImg(img);
       const leafName = identifyLeaf(imgInfo);
-      // Creating paths for each image
-      const splitPath = imgPath.split('.');
-      splitPath.splice(splitPath.length - 1, 0, 'pre.');
-      const preprocessedPath = splitPath.join('');
-      splitPath[splitPath.length - 2] = 'seg.';
-      const segmentedPath = splitPath.join('');
-      splitPath[splitPath.length - 2] = 'int.';
-      const interestPath = splitPath.join('');
-      debug('Saving resulting images');
-      // Saving image on their own paths
-      imgInfo.phases.interest.save(interestPath);
-      imgInfo.phases.preprocessed.save(preprocessedPath);
-      imgInfo.phases.segmented.save(segmentedPath);
       debug('Sending resulting images');
-      // Sending as buffer: e.g. images.phase.data contains the buffer
+      // Sending as buffer: e.g. images.phase.data contains the
+      // buffer
       res.send({
         type: req.file.mimetype,
         images: {
-          preprocessed: fs.readFileSync(preprocessedPath),
-          interest: fs.readFileSync(interestPath),
-          segmented: fs.readFileSync(segmentedPath),
+          preprocessed: imgInfo.phases.preprocessed.toBuffer(),
+          interest: imgInfo.phases.interest.toBuffer(),
+          segmented: imgInfo.phases.segmented.toBuffer(),
         },
         description: leafName.map(ln => info[ln].description)
       });
       debug('Deleting tmp files');
       // Deleting created images
       deleteFile(imgPath);
-      deleteFile(preprocessedPath);
-      deleteFile(interestPath);
-      deleteFile(segmentedPath);
     });
   });
 }
